@@ -1,0 +1,47 @@
+#	-------------------------------------------------------------------
+#	BASE DIRECTORY
+#	-------------------------------------------------------------------
+	JD_AHN_BASE_DIR			=	D:/WORK/workspace/TP_OPIRUS_7072
+	ECMAP_PGM_BASE_DIR		=	/Mes/opirus_dev
+	
+	JD_AHN_FILE_DIR			=	D:/WORK/workspace/TP_OPIRUS_7072/Binary/Pkg
+	ECMAP_PGM_FILE_DIR		=	/Binary/Pkg
+	JD_AHN_FILE_DIR			=	D:/WORK/workspace/TP_OPIRUS_7072/Binary/Pkg
+	
+	JD_AHN_PGM_FILE_DIR_QA	=	D:/WORK/workspace/TP_OPIRUS_7072/ECEtc/Qa
+	ECMAP_PGM_FILE_DIR_QA	=	/ECEtc/Qa
+		
+	JD_AHN_TRA_DIR			=	D:/WORK/workspace/TP_OPIRUS_7072/Tar_file
+	ECMAP_PGM_TRA_DIR		=	/Mes/KDS/tar_file_test
+	
+#	-------------------------------------------------------------------
+#	SERVER SETTING
+#	-------------------------------------------------------------------
+	SOCKET_TIMEOUT				=	10000
+	SOCKET_PORT					=	7072
+	MESSAGE_BUFFER_SIZE			=	1024
+	
+	
+#	-------------------------------------------------------------------
+#	DATABASE Configuration
+#	-------------------------------------------------------------------
+
+	JD_AHN_DB_DRIVER		=	oracle.jdbc.driver.OracleDriver
+	JD_AHN_DB_URL			=	jdbc:oracle:thin:@12.98.17.170:1521:ECMAP
+	JD_AHN_DB_USER			=	mes
+	JD_AHN_DB_PASS			=	unitab1
+
+	ECMAP_PGM_DB_DRIVER		=	oracle.jdbc.driver.OracleDriver
+	ECMAP_PGM_DB_URL			=	jdbc:oracle:thin:@12.98.17.170:1521:ECMAP
+	ECMAP_PGM_DB_USER			=	mes
+	ECMAP_PGM_DB_PASS			=	unitab1
+
+#	JD_AHN_PEPSY_DB_DRIVER		=	oracle.jdbc.driver.OracleDriver
+#	JD_AHN_PEPSY_DB_URL			=	jdbc:oracle:thin:@12.98.17.170:1521:ECMAP
+#	JD_AHN_PEPSY_DB_USER			=	pepsy
+#	JD_AHN_PEPSY_DB_PASS			=	pgmman01
+
+#	ECMAP_PGM_PEPSY_DB_DRIVER		=	oracle.jdbc.driver.OracleDriver
+#	ECMAP_PGM_PEPSY_DB_URL			=	jdbc:oracle:thin:@12.98.17.170:1521:ECMAP
+#	ECMAP_PGM_PEPSY_DB_USER			=	pepsy
+#	ECMAP_PGM_PEPSY_DB_PASS			=	pgmman01

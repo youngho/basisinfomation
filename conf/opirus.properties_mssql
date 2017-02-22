@@ -1,0 +1,33 @@
+#	-------------------------------------------------------------------
+#	BASE DIRECTORY
+#	-------------------------------------------------------------------
+	JD_AHN_BASE_DIR			=	D:\SMART\SMART_OPIRUS
+	PGM_BASE_DIR		=	D:\Process\SMART_OPIRUS
+	
+	JD_AHN_FILE_DIR			=	D:\SMART\TP_OPIRUS_7074/Binary/Pkg
+	PGM_FILE_DIR		=	D:\Binary\Pkg
+	
+	JD_AHN_PGM_FILE_DIR_QA	=	D:\WORK\workspace\TP_OPIRUS_7074\ECEtc\Qa
+	PGM_FILE_DIR_QA	=	D:\ECEtc\Qa
+		
+	JD_AHN_TRA_DIR			=	D:\WORK\workspace\TP_OPIRUS_7074\Tar_file
+	PGM_TRA_DIR		=	D:\Process\SMART_OPIRUS\tar_files
+	
+#	-------------------------------------------------------------------
+#	SERVER SETTING
+#	-------------------------------------------------------------------
+	SOCKET_TIMEOUT				=	10000
+	SOCKET_PORT					=	7074
+	MESSAGE_BUFFER_SIZE			=	1024
+	
+	
+#	-------------------------------------------------------------------
+#	DATABASE Configuration
+#	-------------------------------------------------------------------
+	DB_DRIVER		=	com.microsoft.sqlserver.jdbc.SQLServerDriver
+	DB_URL			=	jdbc:sqlserver://121.185.32.172:1433;
+	DB_NAME			=	SMART_1
+	DB_USER			=	sa
+	DB_PASS			=	famos12#
+
+	
