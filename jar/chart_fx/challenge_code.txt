@@ -1,0 +1,1 @@
+Usage: java -jar chartfx.jar [-version] [-setup serialNumber] [-transversion]
